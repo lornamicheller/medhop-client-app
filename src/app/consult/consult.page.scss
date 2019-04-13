@@ -1,0 +1,43 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 75px;
+}
+
+.menu-icon {
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  top: 40px;
+}
+
+.doctor-img {
+  margin: 0;
+  padding: 0;
+}
+
+.consult-btn {
+  height: auto;
+  --background: transparent;
+  --background-activated: transparent;
+}
+
+.hospital-btn {
+  height: auto;
+  --background: transparent;
+  --background-activated: transparent;
+}
+

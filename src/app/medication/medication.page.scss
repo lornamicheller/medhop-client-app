@@ -1,0 +1,56 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 75px;
+}
+
+.menu-icon {
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  top: 40px;
+}
+
+.prescription {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.write {
+  box-shadow: none;
+  border: 1px solid rgb(196, 196, 196);
+  height: 150px;
+}
+
+.note-area {
+  --padding-start: 10px;
+}
+
+.buy {
+  width: 300px;
+  --border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  --background: #1e91d0;
+  --background-activated: grey;
+  font-weight: 300;
+  font-size: 20px;
+}

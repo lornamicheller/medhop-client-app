@@ -1,0 +1,66 @@
+.logo {
+  width: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.first-slide {
+  display: block;
+}
+
+.second-slide {
+  display: block;
+}
+
+.family-intro {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.card-container {
+  box-shadow: none;
+  border: none;
+}
+
+.login-btn {
+  width: 300px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  --border-radius: 25px;
+  font-size: 20px;
+  font-weight: 300;
+  --background: #ecf5ff;
+  color: #2a90ff;
+  --box-shadow: none;
+  --background-activated: grey;
+}
+
+.signup-btn {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  --border-radius: 25px;
+  font-size: 20px;
+  font-weight: 300;
+  --background: #1e91d0;
+  color: #ffffff;
+  --box-shadow: none;
+  --background-activated: grey;
+}
+
+.bg {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  --box-shadow: none;
+  object-fit: cover;
+}

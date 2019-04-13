@@ -1,0 +1,61 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 75px;
+}
+
+.menu-icon {
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  top: 40px;
+}
+
+.content {
+  border: none;
+  box-shadow: none;
+}
+
+.iphone-logo {
+  margin-top: 20px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buy {
+  width: 300px;
+  --border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  --background: #1e91d0;
+  --background-activated: grey;
+  font-weight: 300;
+}
+
+.buy-2 {
+  width: 300px;
+  --border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  --background: #1e91d0;
+  --background-activated: grey;
+  font-weight: 300;
+}

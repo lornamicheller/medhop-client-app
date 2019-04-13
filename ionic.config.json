@@ -1,0 +1,7 @@
+{
+  "name": "med-hop",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

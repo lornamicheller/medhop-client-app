@@ -1,0 +1,124 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+}
+
+.account-title {
+  text-align: center;
+  font-weight: 300;
+  color: #3e90c5;
+}
+
+.name {
+  --padding-start: 130px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+}
+
+.user {
+  position: absolute;
+  color: rgb(181, 181, 181);
+  top: 256px;
+  left: 50px;
+  width: 25px;
+  height: 25px;
+  z-index: 100;
+}
+
+.email {
+  --padding-start: 130px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+}
+
+.envelope {
+  position: absolute;
+  color: rgb(181, 181, 181);
+  top: 329px;
+  left: 50px;
+  width: 25px;
+  height: 25px;
+  z-index: 100;
+}
+
+.password {
+  --padding-start: 115px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+}
+
+.lock {
+  position: absolute;
+  color: rgb(181, 181, 181);
+  top: 399px;
+  left: 50px;
+  width: 25px;
+  height: 25px;
+  z-index: 100;
+}
+
+.confirm-password {
+    --padding-start: 85px;
+    --background: transparent;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border: 2px solid #1e91d0;
+    border-radius: 25px;
+}
+
+.lock-2 {
+    position: absolute;
+    color: rgb(181, 181, 181);
+    top: 470px;
+    left: 50px;
+    width: 25px;
+    height: 25px;
+    z-index: 100;
+}
+
+.next {
+  width: 300px;
+  --border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  --background: #1e91d0;
+  --background-activated: grey;
+}

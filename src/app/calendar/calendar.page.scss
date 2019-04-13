@@ -1,0 +1,74 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+}
+
+.account-title {
+  text-align: center;
+  font-weight: 300;
+  color: #3e90c5;
+}
+
+.check-in {
+  --padding-start: 20px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+  color: #abd3ff;
+}
+
+.check-out {
+  --padding-start: 20px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+  color: #abd3ff;
+}
+
+.gender-dropdown {
+  --padding-start: 10px;
+  font-size: 15px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+}
+
+.next {
+  width: 300px;
+  --border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  --background: #1e91d0;
+  --background-activated: grey;
+}
