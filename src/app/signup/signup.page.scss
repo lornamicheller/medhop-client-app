@@ -22,7 +22,6 @@
 }
 
 .name {
-  --padding-start: 130px;
   --background: transparent;
   width: 300px;
   margin-top: 30px;
@@ -35,17 +34,17 @@
 }
 
 .user {
-  position: absolute;
+  // position: absolute;
   color: rgb(181, 181, 181);
-  top: 256px;
-  left: 50px;
+  // top: 256px;
+  // left: 50px;
   width: 25px;
   height: 25px;
-  z-index: 100;
+  // z-index: 100;
 }
 
 .email {
-  --padding-start: 130px;
+  // --padding-start: 130px;
   --background: transparent;
   width: 300px;
   margin-top: 30px;
@@ -58,17 +57,17 @@
 }
 
 .envelope {
-  position: absolute;
+  // position: absolute;
   color: rgb(181, 181, 181);
-  top: 329px;
-  left: 50px;
+  // top: 329px;
+  // left: 50px;
   width: 25px;
   height: 25px;
-  z-index: 100;
+  // z-index: 100;
 }
 
 .password {
-  --padding-start: 115px;
+  // --padding-start: 115px;
   --background: transparent;
   width: 300px;
   margin-top: 30px;
@@ -81,7 +80,7 @@
 }
 
 .lock {
-  position: absolute;
+  // position: absolute;
   color: rgb(181, 181, 181);
   top: 399px;
   left: 50px;
@@ -91,7 +90,7 @@
 }
 
 .confirm-password {
-    --padding-start: 85px;
+    // --padding-start: 85px;
     --background: transparent;
     width: 300px;
     margin-top: 30px;
@@ -104,13 +103,13 @@
 }
 
 .lock-2 {
-    position: absolute;
+    // position: absolute;
     color: rgb(181, 181, 181);
-    top: 470px;
+    // top: 470px;
     left: 50px;
     width: 25px;
     height: 25px;
-    z-index: 100;
+    // z-index: 100;
 }
 
 .next {
