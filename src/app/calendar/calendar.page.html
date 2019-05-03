@@ -2,10 +2,18 @@
   <ion-card class="bg">
     <img src="assets/navbarbg.png">
     <img src="assets/medhoplogowhite.svg" class="logo">
+    <ion-button (click)="goBack()" class="arrow-btn">
+      <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+    </ion-button>
 
     <h1 class="account-title">Stay in PR</h1>
-    <ion-button class="check-in" href="/service" expand="block">CHECK-IN DATE</ion-button>
-    <ion-button class="check-out" href="/service" expand="block">CHECK-OUT DATE</ion-button>
-    <ion-button class="next" href="/service" expand="block">NEXT</ion-button>
+    <ion-card style="box-shadow: none;">
+      <ion-input class="check-in" expand="block" readonly [(ngModel)]="mydate" (click)="openDatePicker()"
+        placeholder="CHECK-IN DATE">
+      </ion-input>
+      <ion-input class="check-out" expand="block" readonly [(ngModel)]="mydate" (click)="openDatePicker()"
+        placeholder="CHECK-OUT DATE"></ion-input>
+      <ion-button (click)="openPage()" class="next" expand="block">NEXT</ion-button>
+    </ion-card>
   </ion-card>
 </ion-content>

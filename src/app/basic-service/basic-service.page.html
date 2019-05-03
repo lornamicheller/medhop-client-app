@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header no-border>
   <div class="bg">
     <img src="assets/navbarbg.png">
     <ion-buttons class="menu-btn" slot="start">
@@ -6,6 +6,9 @@
     </ion-buttons>
     <img class="logo" src="assets/medhoplogowhite.svg">
   </div>
+  <ion-button (click)="goBack()" class="arrow-btn">
+    <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+  </ion-button>
 </ion-header>
 
 <ion-content>
@@ -22,7 +25,7 @@
     <h5 style="margin-top: 10px; text-align: center; font-size: 17px; font-weight: 300; color: #2ad7d3;">
       <b>Family Cost:</b> $10.00</h5>
 
-    <ion-button class="buy" href="/consult" expand="block">PAY INDIVIDUAL</ion-button>
-    <ion-button class="buy-2" href="/consult" expand="block">PAY FAMILY</ion-button>
+    <ion-button class="buy" (click)="openPage()" expand="block">PAY INDIVIDUAL</ion-button>
+    <ion-button class="buy-2" (click)="openPage2()" expand="block">PAY FAMILY</ion-button>
   </ion-card>
 </ion-content>

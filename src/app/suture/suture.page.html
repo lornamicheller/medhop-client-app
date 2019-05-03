@@ -6,6 +6,9 @@
     </ion-buttons>
     <img class="logo" src="assets/medhoplogowhite.svg">
   </div>
+  <ion-button (click)="goBack()" class="arrow-btn">
+    <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+  </ion-button>
 </ion-header>
 
 <ion-content>
@@ -13,10 +16,12 @@
     <img class="prescription" src="assets/sutureicon.png">
     <h5 style="margin-top: 10px; text-align: center; font-size: 20px; font-weight: 300; color: #2ad7d3;">SUTURE
     </h5>
-    <p style="margin-top: 10px; text-align: center; font-size: 20px; font-weight: 300; color: #3e90c5;">Exposure of bone, tendons or some buried object</p>
+    <p style="margin-top: 10px; text-align: center; font-size: 20px; font-weight: 300; color: #3e90c5;">Exposure of
+      bone, tendons or some buried object</p>
   </ion-card>
 
-  <ion-button class="buy" href="/suture-continue" expand="block">YES</ion-button>
-  <ion-button class="buy-2" href="/suture-continue" expand="block">NO</ion-button>
-
+  <ion-card style="box-shadow: none;">
+    <ion-button class="buy" (click)="openPage()" expand="block">YES</ion-button>
+    <ion-button class="buy-2" (click)="openPage2()" expand="block">NO</ion-button>
+  </ion-card>
 </ion-content>

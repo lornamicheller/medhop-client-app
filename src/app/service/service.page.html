@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header no-border>
   <div class="bg">
     <img src="assets/navbarbg.png">
     <ion-buttons class="menu-btn" slot="start">
@@ -6,6 +6,9 @@
     </ion-buttons>
     <img class="logo" src="assets/medhoplogowhite.svg">
   </div>
+  <ion-button class="arrow-btn">
+    <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+  </ion-button>
 </ion-header>
 
 <ion-content>
@@ -27,15 +30,19 @@
             <p style="margin-top: 10px; text-align: center; font-size: 17px; font-weight: 300; color: #3e90c5;">Includes
               advice and guidance via telephone</p>
             <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
-              <b>Individual Cost:</b> $10.00</h5>
+              <b>Individual Cost:</b> $59.99</h5>
             <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
-              <b>Family
-                Cost:</b><br>$10.00</h5>
+              <b>Kids:</b> $9.99</h5>
+            <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
+              <b>Couples
+                Cost:</b><br>$79.99</h5>
           </ion-card>
         </ion-col>
       </ion-row>
     </ion-grid>
-    <ion-button class="buy" href="/basic-service" expand="block">BUY</ion-button>
+    <ion-card style="box-shadow: none;">
+      <ion-button class="buy" (click)="openPage()" expand="block">BUY</ion-button>
+    </ion-card>
   </ion-card>
   <!-- basic services ends here -->
 
@@ -57,12 +64,14 @@
             <p style="margin-top: 10px; text-align: center; font-size: 17px; font-weight: 300; color: #3e90c5;">Ideal
               for people who lost their medications or forgot them at home</p>
             <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
-              <b>Cost:</b><br>$10.00</h5>
+              <b>Cost:</b><br>$49.99</h5>
           </ion-card>
         </ion-col>
       </ion-row>
     </ion-grid>
-    <ion-button class="buy" href="/medication" expand="block">BUY</ion-button>
+    <ion-card style="box-shadow: none;">
+      <ion-button class="buy" (click)="openPage2()" expand="block">BUY</ion-button>
+    </ion-card>
   </ion-card>
 
   <!-- suture service -->
@@ -80,14 +89,19 @@
         </ion-col>
         <ion-col size="6">
           <ion-card class="right-card" style="margin-top: 0;">
-            <p style="text-align: center; font-size: 17px; font-weight: 300; color: #3e90c5;">Uncomplicated injuries (without exposed bone or tendon wrapping)</p>
+            <p style="text-align: center; font-size: 17px; font-weight: 300; color: #3e90c5;">Uncomplicated injuries
+              (without exposed bone or tendon wrapping)</p>
             <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
-              <b>Cost:</b><br>$10.00</h5>
+              <b>Former Client Cost:</b><br>$100.00</h5>
+            <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
+              <b>No Former Client Cost:</b><br>$275.00</h5>
           </ion-card>
         </ion-col>
       </ion-row>
     </ion-grid>
-    <ion-button class="buy" href="/suture" expand="block">BUY</ion-button>
+    <ion-card style="box-shadow: none;">
+      <ion-button class="buy" (click)="openPage3()" expand="block">BUY</ion-button>
+    </ion-card>
   </ion-card>
 
   <!-- hangover kit -->
@@ -105,14 +119,19 @@
         </ion-col>
         <ion-col size="6">
           <ion-card class="right-card" style="margin-top: 0;">
-            <p style="text-align: center; font-size: 17px; font-weight: 300; color: #3e90c5;">It includes intravenous hydration, intravenous atiacids, medication for vomiting and / or diarrhea</p>
+            <p style="text-align: center; font-size: 17px; font-weight: 300; color: #3e90c5;">It includes intravenous
+              hydration, intravenous atiacids, medication for vomiting and / or diarrhea</p>
             <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
-              <b>Cost:</b><br>$550.00</h5>
+              <b>Former Client Cost:</b><br>$350.00</h5>
+            <h5 style="margin-top: 10px; text-align: center; font-size: 15px; font-weight: 300; color: #2ad7d3;">
+              <b>No Former Client Cost:</b><br>$550.00</h5>
           </ion-card>
         </ion-col>
       </ion-row>
     </ion-grid>
-    <ion-button class="buy" href="/hangover-kit" expand="block">BUY</ion-button>
+    <ion-card style="box-shadow: none;">
+      <ion-button class="buy" (click)="openPage4()" expand="block">BUY</ion-button>
+    </ion-card>
   </ion-card>
 
   <!-- special services ends here -->

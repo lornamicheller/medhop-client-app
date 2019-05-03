@@ -3,15 +3,25 @@
     <img src="assets/navbarbg.png">
     <img src="assets/medhoplogowhite.svg" class="logo">
 
+    <ion-button (click)="goBack()" class="arrow-btn">
+      <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+    </ion-button>
+
     <h1 class="account-title">Account</h1>
-    <ion-input class="birth" placeholder="DATE OF BIRTH"></ion-input>
+
+    <ion-item class="birth">
+      <ion-label class="date-format">DATE OF BIRTH</ion-label>
+      <ion-datetime class="date-number" display-format="MMM, DD, YYYY"></ion-datetime>
+    </ion-item>
+
 
     <ion-item class="gender-dropdown">
       <ion-select class="gender" placeholder="GENDER">
         <ion-select-option value="f">Female</ion-select-option>
         <ion-select-option value="m">Male</ion-select-option>
+        <ion-select-option value="m">Others</ion-select-option>
       </ion-select>
     </ion-item>
-    <ion-button class="next" href="/calendar" expand="block">NEXT</ion-button>
+    <ion-button class="next" (click)="openPage()" expand="block">NEXT</ion-button>
   </ion-card>
 </ion-content>

@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header no-border>
   <div class="bg">
     <img src="assets/navbarbg.png">
     <ion-buttons class="menu-btn" slot="start">
@@ -6,6 +6,9 @@
     </ion-buttons>
     <img class="logo" src="assets/medhoplogowhite.svg">
   </div>
+  <ion-button (click)="goBack()" class="arrow-btn">
+    <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+  </ion-button>
 </ion-header>
 
 <ion-content>
@@ -23,5 +26,7 @@
     <ion-textarea class="note-area" placeholder="WRITE"></ion-textarea>
   </ion-card>
 
-  <ion-button class="buy" href="/complete" expand="block">REQUEST</ion-button>
+  <ion-card style="box-shadow: none;">
+    <ion-button class="buy" (click)="openPage()" expand="block">REQUEST</ion-button>
+  </ion-card>
 </ion-content>

@@ -5,6 +5,14 @@
   border-radius: 0;
 }
 
+.arrow-btn {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  --background: transparent;
+  --background-activated: transparent;
+}
+
 .logo {
   position: absolute;
   top: 40px;
@@ -31,20 +39,18 @@
   right: 0;
   border: 2px solid #1e91d0;
   border-radius: 25px;
+  --padding-start: 5px;
 }
 
 .user {
-  // position: absolute;
   color: rgb(181, 181, 181);
-  // top: 256px;
-  // left: 50px;
   width: 25px;
   height: 25px;
-  // z-index: 100;
+  --padding-start: 20px;
+  margin-left: 5px;
 }
 
 .email {
-  // --padding-start: 130px;
   --background: transparent;
   width: 300px;
   margin-top: 30px;
@@ -54,20 +60,17 @@
   right: 0;
   border: 2px solid #1e91d0;
   border-radius: 25px;
+  --padding-start: 5px;
 }
 
 .envelope {
-  // position: absolute;
   color: rgb(181, 181, 181);
-  // top: 329px;
-  // left: 50px;
   width: 25px;
   height: 25px;
-  // z-index: 100;
+  margin-left: 5px;
 }
 
 .password {
-  // --padding-start: 115px;
   --background: transparent;
   width: 300px;
   margin-top: 30px;
@@ -77,39 +80,36 @@
   right: 0;
   border: 2px solid #1e91d0;
   border-radius: 25px;
+  --padding-start: 5px;
 }
 
 .lock {
-  // position: absolute;
   color: rgb(181, 181, 181);
-  top: 399px;
   left: 50px;
   width: 25px;
   height: 25px;
-  z-index: 100;
+  margin-left: 5px;
 }
 
 .confirm-password {
-    // --padding-start: 85px;
-    --background: transparent;
-    width: 300px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    border: 2px solid #1e91d0;
-    border-radius: 25px;
+  --background: transparent;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #1e91d0;
+  border-radius: 25px;
+  --padding-start: 5px;
 }
 
 .lock-2 {
-    // position: absolute;
-    color: rgb(181, 181, 181);
-    // top: 470px;
-    left: 50px;
-    width: 25px;
-    height: 25px;
-    // z-index: 100;
+  color: rgb(181, 181, 181);
+  left: 50px;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
 }
 
 .next {

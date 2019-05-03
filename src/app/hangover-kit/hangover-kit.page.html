@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header no-border>
   <div class="bg">
     <img src="assets/navbarbg.png">
     <ion-buttons class="menu-btn" slot="start">
@@ -6,6 +6,10 @@
     </ion-buttons>
     <img class="logo" src="assets/medhoplogowhite.svg">
   </div>
+
+  <ion-button (click)="goBack()" class="arrow-btn">
+    <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+  </ion-button>
 </ion-header>
 
 <ion-content>
@@ -13,10 +17,13 @@
     <img class="prescription" src="assets/hangoverkiticon.png">
     <h5 style="margin-top: 10px; text-align: center; font-size: 20px; font-weight: 300; color: #2ad7d3;">HANGOVER KIT
     </h5>
-    <p style="margin-top: 10px; text-align: center; font-size: 20px; font-weight: 300; color: #3e90c5;">The patient is conscious?</p>
+    <p style="margin-top: 10px; text-align: center; font-size: 20px; font-weight: 300; color: #3e90c5;">The patient is
+      conscious?</p>
   </ion-card>
 
-  <ion-button class="buy" href="/symptoms" expand="block">YES</ion-button>
-  <ion-button class="buy-2" href="/symptoms" expand="block">NO</ion-button>
+  <ion-card style="box-shadow: none">
+    <ion-button class="buy" (click)="openPage()" expand="block">YES</ion-button>
+    <ion-button class="buy-2"(click)="openPage2()" expand="block">NO</ion-button>
+  </ion-card>
 
 </ion-content>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">medHop</string>
+    <string name="title_activity_main">medHop</string>
+    <string name="package_name">test.medhop.app</string>
+    <string name="fileprovider_authority">test.medhop.app.fileprovider</string>
+    <string name="custom_url_scheme">test.medhop.app</string>
+</resources>

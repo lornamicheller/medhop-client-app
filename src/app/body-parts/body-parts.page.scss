@@ -4,13 +4,12 @@
   border-radius: 0;
 }
 
-.menu-btn {
+.arrow-btn {
   position: absolute;
-  top: 75px;
-}
-
-.menu-icon {
-  color: white;
+  top: 70px;
+  left: 0;
+  --background: transparent;
+  --background-activated: transparent;
 }
 
 .logo {
@@ -57,7 +56,6 @@
 }
 
 .buy-2 {
-  width: 100%;
   --border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -67,4 +65,5 @@
   --background-activated: grey;
   font-weight: 300;
   font-size: 20px;
+  height: 50px;
 }

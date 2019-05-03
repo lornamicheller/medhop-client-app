@@ -1,0 +1,7 @@
+{
+  "appId": "test.medhop.app",
+  "appName": "medHop",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

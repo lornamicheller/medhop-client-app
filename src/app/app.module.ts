@@ -9,9 +9,12 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NgCalendarModule } from "ionic2-calendar";
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+import { CalendarComponent } from "./calendar/calendar.component";
+import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions/ngx';
+
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, CalendarComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
@@ -23,8 +26,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
     StatusBar,
     SplashScreen,
     Camera,
+    NativePageTransitions,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, CalendarComponent]
 })
 export class AppModule {}

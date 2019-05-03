@@ -5,6 +5,14 @@
   border-radius: 0;
 }
 
+.arrow-btn {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  --background: transparent;
+  --background-activated: transparent;
+}
+
 .logo {
   position: absolute;
   top: 40px;
@@ -22,9 +30,7 @@
 }
 
 .check-in {
-  --padding-start: 20px;
   --background: transparent;
-  width: 100%;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -32,15 +38,13 @@
   right: 0;
   border: 2px solid #1e91d0;
   border-radius: 25px;
-  color: #abd3ff;
+  color: #449fff;
+  height: 50px;
+  --padding-start: 10px;
 }
 
 .check-out {
-  --padding-start: 20px;
   --background: transparent;
-  
-  width: 100%;
-  
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +52,10 @@
   right: 0;
   border: 2px solid #1e91d0;
   border-radius: 25px;
-  color: #abd3ff;
+  color: #449fff;
+  height: 50px;
+  padding-left: 10px;
+  --padding-start: 10px;
 }
 
 .gender-dropdown {
@@ -66,7 +73,6 @@
 }
 
 .next {
-  width: 100%;
   --border-radius: 25px;
   margin-left: auto;
   margin-right: auto;

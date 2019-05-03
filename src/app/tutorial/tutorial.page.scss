@@ -28,7 +28,6 @@
 }
 
 .login-btn {
-  width: 100%;
   margin-top: 60px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -40,10 +39,10 @@
   color: #2a90ff;
   --box-shadow: none;
   --background-activated: grey;
+  height: 50px;
 }
 
 .signup-btn {
-  width: 100%;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -54,6 +53,8 @@
   color: #ffffff;
   --box-shadow: none;
   --background-activated: grey;
+  height: 50px;
+
 }
 
 .bg {

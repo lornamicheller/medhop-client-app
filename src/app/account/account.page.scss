@@ -5,6 +5,14 @@
   border-radius: 0;
 }
 
+.arrow-btn {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  --background: transparent;
+  --background-activated: transparent;
+}
+
 .logo {
   position: absolute;
   top: 40px;
@@ -48,6 +56,10 @@
   border-radius: 25px;
 }
 
+.gender {
+  color: black;
+}
+
 .next {
   width: 300px;
   --border-radius: 25px;
@@ -56,4 +68,11 @@
   margin-top: 50px;
   --background: #1e91d0;
   --background-activated: grey;
+}
+
+.date-format {
+  border: none;
+  color: rgb(211, 211, 211);
+  font-size: 15px;
+  font-weight: 700;
 }
