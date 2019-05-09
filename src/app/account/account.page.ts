@@ -17,9 +17,13 @@ export class AccountPage implements OnInit {
   openPage() {
 
     let options: NativeTransitionOptions= {
-        direction: 'left', duration: 400, slowdownfactor: -1, slidePixels: 20, iosdelay: 100
+        direction: 'left',
+        duration: 400,
+        slowdownfactor: -1, 
+        slidePixels: 20, 
+        iosdelay: 100
     }
-    console.log(options);
+    // console.log(options);
     this.nativePageTransitions.slide(options);
     this.navigate.navigateRoot("/calendar");
 }
