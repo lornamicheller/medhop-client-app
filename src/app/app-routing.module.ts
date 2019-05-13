@@ -4,13 +4,14 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'tutorial',
+    redirectTo: 'splash',
     pathMatch: 'full'
   },
   {
-    path: 'tutorial',
-    loadChildren: './tutorial/tutorial.module#TutorialPageModule'
+    path: 'splash',
+    loadChildren: './splash/splash.module#SplashPageModule'
   },
+  { path: 'tutorial', loadChildren: './tutorial/tutorial.module#TutorialPageModule' },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'signup', loadChildren: './signup/signup.module#SignupPageModule' },
   { path: 'account', loadChildren: './account/account.module#AccountPageModule' },
@@ -30,7 +31,8 @@ const routes: Routes = [
   { path: 'hangover-kit', loadChildren: './hangover-kit/hangover-kit.module#HangoverKitPageModule' },
   { path: 'symptoms', loadChildren: './symptoms/symptoms.module#SymptomsPageModule' },
   { path: 'choose-vomiting', loadChildren: './choose-vomiting/choose-vomiting.module#ChooseVomitingPageModule' },
-  { path: 'choose-diarrhea', loadChildren: './choose-diarrhea/choose-diarrhea.module#ChooseDiarrheaPageModule' }
+  { path: 'choose-diarrhea', loadChildren: './choose-diarrhea/choose-diarrhea.module#ChooseDiarrheaPageModule' },
+  
 ];
 
 @NgModule({
